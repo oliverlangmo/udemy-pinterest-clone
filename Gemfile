@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
-ruby '2.2.4'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
@@ -55,3 +54,5 @@ group :production do
   gem 'pg', '0.17.1'
   gem 'rails_12factor', '0.0.2'
 end
+
+ruby '2.2.4'
